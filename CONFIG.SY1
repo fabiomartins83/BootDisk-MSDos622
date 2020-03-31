@@ -1,0 +1,4 @@
+files=30
+buffers=15
+lastdrive=z
+device= \mtmcdas.sys /d:mscd001 /p:340 /a:0 /i:11 

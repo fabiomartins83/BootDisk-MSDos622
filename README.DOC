@@ -1,0 +1,53 @@
+
+
+The purpose of this utility diskette is to assist the user in the event 
+that the software provided on the CD-ROM needs to be reinstalled.
+
+A batch file has been created in the event that DOS needs to be 
+reinstalled onto the hard disk.  You should note that this batch 
+file will ERASE the entire hard drive.  The batch file is called
+"SETDOS.BAT" and it will format the hard disk identified as drive
+C, transfer the system files, and then copy the entire DOS subdirectory
+from the CD-ROM drive to the DOS subdirectory on the hard disk. 
+
+Once DOS has been copied to your hard disk, the AUTOEXEC.BAT and CONFIG.SYS
+files from drive A will be copied onto your hard disk along with the
+system files to support your CD-ROM.  At this point you should have full   
+access to your hard disk and CD-ROM and you will no longer need to boot
+from the Setup Diskette.
+
+If you wish to reinstall DOS without formatting the hard disk the XCOPY
+command can be used.  An example of this command might be:
+
+                        XCOPY D:\DOS C:\DOS
+
+This command will perform the same function as SETDOS but it will not  
+format the hard disk. If you need to transfer the system files to your 
+hard drive the following command can be used:
+
+                        SYS A: C:
+
+A brief description of each directory located on the CD is listed below:
+
+DOS6_2          This subdirectory contains the files for DOS ver 6.2.                  
+                The XCOPY command is used to install these files to the
+                system hard drive. 
+                
+WFW3_11         This subdirectory contains the files for Windows for 
+                Workgroups ver 3.11. To install Windows go into the 
+                Windows subdirectory and type in SETUP from the DOS prompt.  
+                It is recommended that the "Custom" setup procedure be 
+                used when installing Windows. When Windows searches for 
+                applications do not search the CD-ROM drive (drive D).  
+                
+MOUSE           This subdirectory contains the Mouse driver files.  To                
+                install the Mouse driver files go into the Mouse
+                subdirectory and type in SETUP from the DOS prompt.
+                
+If you have any questions you can reach Micron Technical Support at
+1-800-877-8856.
+
+
+
+
+

@@ -1,0 +1,5 @@
+
+
+Do you have a Diamond SonicSound LX sound card installed in your computer?
+Type in either Y or N to reflect your choice.
+

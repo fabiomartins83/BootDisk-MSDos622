@@ -1,0 +1,5 @@
+
+
+Your hard drive has now been formatted and DOS has been copied 
+to your hard drive!!!  You may now remove your Setup diskette  
+and reboot your machine.

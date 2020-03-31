@@ -1,0 +1,6 @@
+files=30
+buffers=15
+lastdrive=z
+device= \mztinit.sys /a220 /i5 /d1 /m /ca340 /ci10 /g /v7 
+device= \mtmcdas.sys /d:mscd001 /p:340 /a:0 /i:10
+
